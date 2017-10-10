@@ -1,0 +1,29 @@
+* {
+	text-align: center;
+}
+
+.container {
+    width: 600px;
+    margin: 0 auto;
+    background-color: #996633;
+    border: 1px solid black;
+}
+.row {
+    margin: 0 auto;
+}
+.switch {
+    display: inline-block;
+}
+button {
+    width: 40px;
+    height: 40px;
+    background-color: red;
+    color: white;
+    display: inline-block;
+    margin: 10px;
+    box-shadow: 3px 3px 1px black;
+}
+button.on {
+    background-color: green;
+    color: white;
+}
